@@ -1,0 +1,19 @@
+{
+  "Json serializable part": {
+    "prefix": "jsf",
+    "body": [
+      "import 'package:json_annotation/json_annotation.dart';",
+      "part '${TM_FILENAME/.dart//gi}.g.dart';",
+      "",
+      "@JsonSerializable()"
+    ],
+    "description": "Json serializable part"
+  },
+  "'Json serializable toJson and fromJson'": {
+    "prefix": "jsc",
+    "body": [
+      "factory ${1:ClassName}.fromJson(Map<String, dynamic> json) => _$${1:ClassName}FromJson(json);\n\nMap<String, dynamic> toJson() => _$${1:ClassName}ToJson(this);"
+    ],
+    "description": "Json serializable toJson and fromJson"
+  }
+}
