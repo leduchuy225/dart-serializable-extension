@@ -16,11 +16,23 @@
     "type": "git",
     "url": "https://github.com/cleverflow/dart-serializable-extension"
   },
+  
   "contributes": {
+    "menus": {
+        "explorer/context": [
+          {
+            "command": "dart-json-serializable.createDartJsonSerializable",
+            "group": "general",
+            "target": "explorer",
+            "title": "[Dart] Create Dart Json Serializable Class"
+          }
+        ]
+      },
     "commands": [
       {
         "command": "dart-json-serializable.createDartJsonSerializable",
-        "title": "Create Dart Json Serializable Class"
+        "title": "Create Dart Json Serializable Class",
+        "group": "general"
       }
     ],
     "snippets": [
