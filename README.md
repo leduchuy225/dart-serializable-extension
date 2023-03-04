@@ -1,4 +1,4 @@
-# dart-json-serializable-snippets README
+# dart-json-serializable README
 
 Generate dart serializable classes with JsonSerializable package
 

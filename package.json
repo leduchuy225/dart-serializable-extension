@@ -1,8 +1,8 @@
 {
-  "name": "dart-json-serializable-snippets",
-  "displayName": "dart json serializable snippets",
-  "description": "Snippets for dart json serializable package",
-  "version": "0.0.1",
+  "name": "dart-json-serializable",
+  "displayName": "Dart json serializable",
+  "description": "Snippets and commands for dart json serializable package",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.76.0"
   },
@@ -19,7 +19,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "dart-json-serializable-snippets.createDartJsonSerializable",
+        "command": "dart-json-serializable.createDartJsonSerializable",
         "title": "Create Dart Json Serializable Class"
       }
     ],
