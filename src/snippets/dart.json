@@ -15,5 +15,22 @@
       "factory ${1:ClassName}.fromJson(Map<String, dynamic> json) => _$${1:ClassName}FromJson(json);\n\nMap<String, dynamic> toJson() => _$${1:ClassName}ToJson(this);"
     ],
     "description": "Json serializable toJson and fromJson"
+  },
+  "'Json serializable Model'": {
+    "prefix": "jsm",
+    "body": [
+      "import 'package:json_annotation/json_annotation.dart';",
+      "part '${TM_FILENAME/.dart//gi}.g.dart';",
+      "",
+      "@JsonSerializable()",
+      "class ${1:ClassName} {",
+      "  ${1:ClassName}();",
+      "",
+      "  factory ${1:ClassName}.fromJson(Map<String, dynamic> json) => _$${1:ClassName}FromJson(json);",
+      "",
+      "  Map<String, dynamic> toJson() => _$${1:ClassName}ToJson(this);",
+      "}"
+    ],
+    "description": "Json serializable Model"
   }
 }
