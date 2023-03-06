@@ -2,7 +2,7 @@
   "name": "dart-json-serializable",
   "displayName": "Dart json serializable",
   "description": "Snippets and commands for dart json serializable package",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.76.0"
   },
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/cleverflow/dart-serializable-extension"
   },
-  
+  "icon": "/assets/icon.png",
   "contributes": {
     "menus": {
         "explorer/context": [
