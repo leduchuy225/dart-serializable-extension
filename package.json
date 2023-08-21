@@ -1,6 +1,6 @@
 {
   "name": "dart-json-serializable",
-  "displayName": "Dart json serializable",
+  "displayName": "Dart Json-Serializable",
   "description": "Snippets and commands for dart json serializable package",
   "version": "0.0.3",
   "engines": {
@@ -19,19 +19,19 @@
   "icon": "/assets/icon.png",
   "contributes": {
     "menus": {
-        "explorer/context": [
-          {
-            "command": "dart-json-serializable.createDartJsonSerializable",
-            "group": "general",
-            "target": "explorer",
-            "title": "[Dart] Create Dart Json Serializable Class"
-          }
-        ]
-      },
+      "explorer/context": [
+        {
+          "command": "dart-json-serializable.createDartJsonSerializable",
+          "group": "general",
+          "target": "explorer",
+          "title": "[Dart] Create Dart Json Serializable Class"
+        }
+      ]
+    },
     "commands": [
       {
         "command": "dart-json-serializable.createDartJsonSerializable",
-        "title": "Create Dart Json Serializable Class",
+        "title": "Dart Json-Serializable: Create new class",
         "group": "general"
       }
     ],
